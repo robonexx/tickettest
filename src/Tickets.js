@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Ticketos({tickettype, addTicket}) {
+export default function Tickets({tickettype, addTicket}) {
 
     
     return (
-        <div style={{color: "white", fontSize: "1rem"}}>
+        <div style={{color: "black", fontSize: "1rem"}}>
             <h3>{tickettype.name}</h3>
             <span>{tickettype.price} kr</span>
 

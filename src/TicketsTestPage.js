@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import data from './content/content'
 import TicketsTest from './TicketsTest';
 import Basket from './Basket';
@@ -31,7 +30,7 @@ const TicketsPageTest = () => {
 
     return (
         <>
-            <h1 style={{color: "white"}}>Tickets</h1>
+            <h1 style={{color: "black"}}>Tickets</h1>
             <TicketsTest ticketTypes={ticketTypes} addTicket={addTicket} />
             <Basket ticketItems={ticketItems} addTicket={addTicket} removeTicket={removeTicket}/>
             </>
