@@ -30,7 +30,8 @@ const TicketsPageTest = () => {
 
     return (
         <>
-            <h1 style={{color: "black"}}>Tickets</h1>
+            <h1 style={{color: "blue"}}>SL app</h1>
+            <h1 style={{color: "green"}}>Buy tickets function</h1>
             <TicketsTest ticketTypes={ticketTypes} addTicket={addTicket} />
             <Basket ticketItems={ticketItems} addTicket={addTicket} removeTicket={removeTicket}/>
             </>

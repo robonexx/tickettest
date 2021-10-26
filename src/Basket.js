@@ -8,7 +8,7 @@ export default function Basket({ ticketItems, addTicket, removeTicket }) {
     
     return (
         <aside className="basket">
-            <h2>Summa</h2><span></span>
+            <h2>Valda biljetter</h2><span></span>
             <div>
                 {ticketItems.length === 0 && 
                     <div>Inga biljetter</div>

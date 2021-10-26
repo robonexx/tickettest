@@ -2,12 +2,12 @@ const data = {
     ticketTypes: [
         {
             id: '1',
-            name: 'Antal vuxen',
+            name: 'vuxen',
             price: 38
         },
         {
             id: '2',
-            name: 'Antal rabatterat',
+            name: 'rabatterat',
             price: 25
         }
 
