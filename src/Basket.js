@@ -33,6 +33,7 @@ export default function Basket({ ticketItems, addTicket, removeTicket }) {
                 )
                 }
             </div>
+            <button onClick={() => alert('Tack för ditt köp, Sl önskar Er en trevlig resa')}>Betalning</button>
         </aside>
     )
 }
