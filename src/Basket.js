@@ -33,7 +33,13 @@ export default function Basket({ ticketItems, addTicket, removeTicket }) {
                 )
                 }
             </div>
-            <button onClick={() => alert('Tack för ditt köp, Sl önskar Er en trevlig resa')}>Betalning</button>
+            
+                    <div >
+                <button onClick={() => alert(`Tack för ditt köp`)}>Betalning</button>
+                {/* , ${ticketItems.map((ticket) => `${ticket.qty}`)} bilj, total pris ${ticketPrice}  */}
+                    </div>
+       
+            
         </aside>
     )
 }
